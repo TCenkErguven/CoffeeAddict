@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#id{
+    position: absolute;
+    left: 25;
+}
+
+html,body{
+    height:100%;
+}
+
+nav{
+    position: relative;
+    list-style: none;
+    height: 100px;
+}
+
+#logo{
+    width:100px;
+    height:100px;
+}
+
+li{   
+    padding:0 10px;
+}
+
+
+
+ul{
+    position:relative;
+    list-style: none;
+    text-align: center;
+    bottom: 60px;
+
+}
+
+
+.homenav1{
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position:relative;
+    display: inline-block;
+    
+}
+
+.homenav1>a:link,.homenav1>a:visited{
+    color:brown;
+}
+
+.homenav1>a:hover{
+    text-decoration: none;
+}
+
+.homenav2{
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position:relative;
+    display: inline-block
+    
+}
+
+.homenav2>a:link,.homenav2>a:visited{
+    color:brown;
+}
+
+.homenav2>a:hover{
+    text-decoration: none;
+}
+
+.homenav3{
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position:relative;
+    display: inline-block
+    
+}
+
+.homenav3>a:link,.homenav3>a:visited{
+    color:brown;
+}
+
+.homenav3>a:hover{
+    text-decoration: none;
+}
+
+.homenav4{
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position:relative;
+    display: inline-block
+    
+}
+
+.homenav4>a:link,.homenav4>a:visited{
+    color:brown;
+}
+
+.homenav4>a:hover{
+    text-decoration: none;
+}
+
+
+.background{
+    background-image: url("/img/background.jpg");
+    max-width: 100%;
+    
+    display: block;
+}
+
+main{
+    margin-top: 0;
+    border-top-style: solid;
+    border-width: 1px;
+    min-height: 100%;
+}
+main a{
+    font-weight: bold;
+}
+
+main img{
+    margin-top: 30px;
+    border-radius: 43%;
+    size-adjust: auto;
+    width: auto;
+    height: auto;
+    
+}
+
+.productdetail{
+    margin-left: 1%;
+    position: relative;
+    margin-top:40px;
+    margin-right: 50%;
+    float:inline-start;
+    
+}
+
+.productdetail>p{
+    margin-top:110px;
+    padding:10px;
+    margin-bottom: auto;
+    display: inline-block;
+    position: absolute;
+    width: 70%;
+}
+
+
+.footer{
+    border-top-style: solid;
+    border-width: 1px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    background-color: #553939;
+}
+
+h4{
+
+    left:60px;
+    margin-left: 90%;
+    margin-bottom: 10%;
+}
+
+h4>a{
+    position:absolute;
+    
+}
+
+h4>a:link,h4>a:visited{
+    color:black;
+}
+
+h4>a:hover{
+    text-decoration: none;
+}
+
+footer{
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+h3>a:link,h3>a:visited{
+        color:black;
+    }
+    
+h3>a:hover{
+        text-decoration: none;
+    }
+header{
+    margin: auto;
+    position: relative;
+}
+
+.productdetailabout{
+    margin-left:1%;
+    margin-top: 100px;
+}
+.productdetailabout>h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.productdetailabout>p{
+    margin-right: 50%;
+    font-size: 20px;
+}
+
+.productdetailnumbers{
+    margin-top: 80px;
+    margin-left: 1%;
+}
+
+.productdetailnumbers>h2{
+    font-size: 50px;
+}
+
+
+table{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 12px;
+}
+
+.productdetailcontacts{
+    margin-left:1%;
+    margin-top: 100px;
+}
+
+.productdetailcontacts>h2{
+    font-size: 50px;
+}
+
+form{
+    margin-top: 8%;
+    margin-right: 50%;
+    text-align: center;
+}
+
+form>#name{
+    margin-bottom: 20px;
+}
+form>#email{
+    margin-bottom: 20px;
+}
+
+form>p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form>button{
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    color:#553939;
+    border-style: none;
+    border-radius: 43%;
+    margin-left: 7%;
+}
+
+form>button:hover{
+    background-color: #C58940;
+    
+}
